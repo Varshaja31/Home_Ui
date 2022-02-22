@@ -1,0 +1,187 @@
+
+.main{
+  background-color: #2f4050;
+  width: 80px;
+  min-height: 85vh;
+  /* margin-top: 2px; */
+  display:flex;
+  
+  /* transition: 0.2s; */
+ 
+  
+}
+
+
+
+
+
+
+.side a{
+
+  color: white;
+  display: block;
+  padding-top: 26px;
+  padding-left: 20px;
+  transition: all .3s linear;
+
+  
+  padding-bottom: 26px;
+  /* padding: 25px; */
+  font-weight: normal;
+  /* padding-left: 50px; */
+  /* transition: all .3s linear; */
+ 
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+  
+   /* display: flex;  */
+ 
+ 
+   /* border: 1px solid black;  */
+
+}
+
+.side a span{
+  display: none;
+
+ 
+}
+
+.side a:hover span{
+  display: flex;
+ margin-left: 30px;
+ margin-top: -18px;
+
+}
+
+
+
+
+
+
+.side a:hover{
+  cursor: pointer;
+  background-color: #2f4050;
+  width: 150px;
+  margin: 0px;
+ 
+  z-index: 1;
+
+}
+
+/* .contenta{
+  background-color: yellowgreen;
+} */
+
+@media only screen and (max-width: 600px) {
+  .main{
+    width: auto;
+    min-height: auto;
+    position: relative;
+  }
+ .side a span {
+   float: left;
+   padding-right: 3px;   
+ }
+
+ .side a span{
+  display: block;
+ 
+}
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .main{
+    width: auto;
+    min-height: auto;
+  }
+ .side a {
+   float: left;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+  
+   
+ }
+
+
+
+ 
+
+
+
+}
+
+.hamburger{
+  height: 40px;
+  color: white;
+  display: none;
+  justify-content: center;
+  margin-left: 55px;
+  margin-top: 20px;
+  
+ }
+
+@media only screen and (max-width: 540px) {
+  .main{
+    width: 100%;
+    min-height: 50px;
+    transition: 0.2s
+  }
+ .side a {
+  display: none;
+   
+   
+ }
+
+ .hamburger{
+   display: flex;
+ }
+
+ 
+.mob {
+  background-color: #2f4050;
+  width: 100%;
+  min-height: 50vh;
+  transition: 1.2s;
+
+  /* transition: 3.2s; */
+  
+
+  font-family: sans-serif;
+}
+
+
+.mob .side a{
+  color: white;
+  display: flex;
+  transition: 1.2s;
+
+  padding-top: 15px;
+  float: none;
+  /* padding: 25px; */
+  font-weight: normal;
+  /* padding-left: 50px; */
+  transition: 3.2s;
+  transform: translateX(100);
+
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.mob .hamburger{
+  margin-left: 0px;
+
+}
+
+
+
+}
+
+
+
